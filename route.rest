@@ -1,0 +1,19 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/655718d2982a6adaab5ec676
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Shreyas Patil",
+    "subscriberToChannel": "Dev made simplified"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/655718d2982a6adaab5ec676

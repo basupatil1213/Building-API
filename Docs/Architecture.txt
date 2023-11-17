@@ -1,0 +1,9 @@
+Model
+Controller
+Service
+Routes
+
+// Topics
+CORS -> cross origin Resource Sharing
+mongoose -> library to connect to mongoDB database
+express.router -> 
